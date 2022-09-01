@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: worker-app-pod
+  labels:
+    app: voting-app
+spec:
+  containers:
+    - name: worker-app
+      image: raghadhabib/worker:latest
+      
+
+
+       
